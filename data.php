@@ -1,5 +1,6 @@
 <?php
     session_start();
+    //session_destroy();
     include('server.php');
     
 ?>
@@ -16,7 +17,6 @@
 <body>
     <div class="body">
         <h2>ข้อมูลส่วนตัว</h2>
-
     </div>
    <form action="data_db.php" method="post">
     <?php include('errors.php'); ?>

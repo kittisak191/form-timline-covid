@@ -30,7 +30,7 @@
             } else {
                 array_push($errors, "Wrong username or password combination");
                 $_SESSION['error'] = "Wrong username or password try again!";
-                header("location:login.php");
+                header("location:index.php");
                
             }
         }

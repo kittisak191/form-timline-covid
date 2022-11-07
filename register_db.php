@@ -43,7 +43,7 @@
             mysqli_query($conn, $sql);
 
             $_SESSION['username'] = $username;
-            header('location: login.php');
+            header('location: index.php');
 
         } else {
             array_push($errors, "Username or Email already exists");
